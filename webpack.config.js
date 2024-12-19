@@ -4,7 +4,8 @@ const CopyPlugin = require("copy-webpack-plugin");
 module.exports = {
     devtool: 'inline-source-map',
     entry: {
-        popup: path.resolve(__dirname, "src", "popup", "index.ts")
+        content: path.resolve(__dirname, "src", "content", "index.ts"),
+        popup: path.resolve(__dirname, "src", "popup", "index.ts"),
     },
     output: {
         clean: true

@@ -5,5 +5,11 @@
     "manifest_version": 3,
     "action": {
       "default_popup": "popup.html"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://app.roll20.net/*"],
+            "js": ["content.js"]
+        }
+    ]
   }
