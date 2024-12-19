@@ -7,7 +7,7 @@ npm run build
 
 ## How To Install
 
-1. Download the content of this repository (*).
+1. Build this project
 2. Open Chrome extension manager.
 3. If you have downloaded this repository as a zip file then unzip it.
 4. Select "Load Unpacked", browse to the `dist` folder where you extension was built.
