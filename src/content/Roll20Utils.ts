@@ -5,7 +5,7 @@ export const sendDiceRoll = (faceValue: number): void => {
 
     const oldValue = txt.value;
 
-    txt.value = "Rolled " + faceValue;
+    txt.value = "Rolled **" + faceValue + "**";
     btn.click();
     txt.value = oldValue;
 }
